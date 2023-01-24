@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/svg/avatar.svg";
 import Tilt from "react-parallax-tilt";
+import { Player } from "@lottiefiles/react-lottie-player";
 import { AiFillGithub, AiFillInstagram } from "react-icons/ai";
 import { FaLinkedinIn, FaHackerrank } from "react-icons/fa";
 
@@ -43,7 +43,11 @@ function Home2() {
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
+              <Player
+                src="https://assets6.lottiefiles.com/packages/lf20_ofa3xwo7.json"
+                loop
+                autoplay
+              />
             </Tilt>
           </Col>
         </Row>

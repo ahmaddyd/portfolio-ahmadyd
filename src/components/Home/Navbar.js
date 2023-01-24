@@ -90,7 +90,7 @@ function NavBar() {
                 onClick={() => updateExpanded(false)}
               >
                 <CgFileDocument
-                  style={{ color: "#181D31", marginBottom: "2px" }}
+                  style={{ color: "#88d8b0", marginBottom: "2px" }}
                 />{" "}
                 Resume
               </Nav.Link>
