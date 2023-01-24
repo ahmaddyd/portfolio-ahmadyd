@@ -4,7 +4,7 @@ import Particle from "../Particle";
 import Github from "./Github";
 import Techstack from "./TechnologiesStack";
 import Aboutcard from "./AboutCard";
-import iconAbout from "../../Assets/images/about.png";
+import { Player } from "@lottiefiles/react-lottie-player";
 import Toolstack from "./Tools";
 
 function About() {
@@ -31,7 +31,18 @@ function About() {
             style={{ paddingTop: "120px", paddingBottom: "50px" }}
             className="about-img"
           >
-            <img src={iconAbout} alt="about" className="img-fluid" />
+            <Player
+              src="https://assets1.lottiefiles.com/packages/lf20_zw1coqqh.json"
+              className="img-fluid"
+              loop
+              autoplay
+              style={{
+                height: "auto",
+                width: "100%",
+                display: "block",
+                position: "relative",
+              }}
+            />
           </Col>
         </Row>
         <h1 className="project-heading">
