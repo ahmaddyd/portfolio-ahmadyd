@@ -14,6 +14,7 @@ import fundamentalandroid from "../../Assets/certificate/certificate9.png";
 import problemsolving from "../../Assets/certificate/certificate10.png";
 import restapi from "../../Assets/certificate/certificate11.png";
 import sql from "../../Assets/certificate/certificate12.png";
+import hashmicrocertificate from "../../Assets/certificate/certificate13.png";
 import aad1 from "../../Assets/projects/aad1.png";
 import aad2 from "../../Assets/projects/aad2.png";
 import aad3 from "../../Assets/projects/aad3.png";
@@ -32,7 +33,7 @@ function Projects() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          My Recent <strong className="blue">Works </strong>
+          MY RECENT <strong className="blue">WORKS </strong>
         </h1>
         <p style={{ color: "#1c82ad" }}>
           Here are some of the projects on which I've worked.
@@ -120,20 +121,11 @@ function Projects() {
           </Col>
 
           <h1 className="project-heading">
-            Professional <strong className="blue">Certificates </strong>
+            PROFESSIONAL <strong className="blue">CERTIFICATES </strong>
           </h1>
           <p style={{ color: "#1c82ad" }}>
             Here are some of the certificates on which I've obtained.
           </p>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={fundamentalandroid}
-              isBlog={false}
-              title="Fundamentals of Android Applications"
-              description="The course is designed for developers who wish to understand the essentials of developing Android apps, such as networking and databases, using worldwide competence standards held by Google Developers Authorized Training Partners. Students will be able to design programs that can get data from Web API and save preferred data in a local database at the conclusion of the semester."
-            />
-          </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
@@ -146,19 +138,19 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={sib}
+              imgPath={fundamentalandroid}
               isBlog={false}
-              title="Android Developer"
-              description="This Android Application Developer Certified Independent Study is presented in order to provide high-quality talent in the area of Android application development that meets industry requirements. The learning method used is online learning, in which participants must directly apply the content they receive via projects and activities that must be performed to finish each topic."
+              title="Fundamentals of Android Applications"
+              description="The course is designed for developers who wish to understand the essentials of developing Android apps, such as networking and databases, using worldwide competence standards held by Google Developers Authorized Training Partners. Students will be able to design programs that can get data from Web API and save preferred data in a local database at the conclusion of the semester."
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={frontend}
+              imgPath={sib}
               isBlog={false}
-              title="Beginner's Guide to Web Front-End Development"
-              description="According to industry standards, this program is designed for a Front-End Web Developer who wishes to create a website with more functionality than merely information media. By the conclusion of the semester, students will be able to construct interactive front-end web apps with storage capabilities utilizing web storage."
+              title="Android Developer"
+              description="This Android Application Developer Certified Independent Study is presented in order to provide high-quality talent in the area of Android application development that meets industry requirements. The learning method used is online learning, in which participants must directly apply the content they receive via projects and activities that must be performed to finish each topic."
             />
           </Col>
 
@@ -182,6 +174,15 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={frontend}
+              isBlog={false}
+              title="Beginner's Guide to Web Front-End Development"
+              description="According to industry standards, this program is designed for a Front-End Web Developer who wishes to create a website with more functionality than merely information media. By the conclusion of the semester, students will be able to construct interactive front-end web apps with storage capabilities utilizing web storage."
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={googleit}
               isBlog={false}
               title="Google IT Automation with Python"
@@ -200,10 +201,10 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={infografiscertificate}
+              imgPath={hashmicrocertificate}
               isBlog={false}
-              title="Infographic Poster Competition"
-              description="2nd Place Infographic Poster Competition 'Gerakan Masyarakat Hidup Sehat'"
+              title="Quality Enterprise Internship Program Batch 2"
+              description="The Quality Enterprise Internship Program (QEIP) activities provide students with opportunity to hone their skills and knowledge with HashMicro. Apprentices will be given the same work experience as full-time workers and will interact with key stakeholders. Furthermore, students will be part in the process of issue resolution, project work, product implementation, and marketing plan development. Abilities to be obtained from this internship program teaches Python programming and paradigms, ERP software installation, product design, digital marketing, and soft skills."
             />
           </Col>
 
@@ -249,6 +250,15 @@ function Projects() {
               isBlog={false}
               title="Gerakan Masyarakat Hidup Sehat"
               description="GERMAS is a movement that seeks to foster a culture of healthy living while encouraging individuals to abandon harmful habits and behaviors. This GERMAS effort was followed by encouraging clean and healthy living habits as well as community support for infrastructure initiatives."
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={infografiscertificate}
+              isBlog={false}
+              title="Infographic Poster Competition"
+              description="2nd Place Infographic Poster Competition 'Gerakan Masyarakat Hidup Sehat'"
             />
           </Col>
         </Row>

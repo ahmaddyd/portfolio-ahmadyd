@@ -49,13 +49,17 @@ html {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: rgba(66, 86, 196, 0.959);
+  background: #87cefa;
   border-radius: 12px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(34, 40, 116, 0.911);
+  background: linear-gradient(
+    0deg,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(253, 187, 45, 1) 100%
+  );
   border-radius: 12px;
 }
 
@@ -194,7 +198,7 @@ html {
   height: 5px;
   width: 0;
   border-radius: 16px;
-  background: rgb(0, 129, 201);
+  background: #87cefa;
   bottom: 1px;
   left: 0;
   z-index: -1;
@@ -777,7 +781,7 @@ button:focus {
 
 .btn-primary:hover {
   color: #ffffff !important;
-  background-color: #22c1c3 !important;
+  background-color: #87cefa !important;
   border-color: #ffffff !important;
 }
 
