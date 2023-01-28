@@ -18,8 +18,7 @@ function Home2() {
             </h1>
             <p
               data-aos="fade-right"
-              data-aos-easing="linear"
-              data-aos-duration="1250"
+              data-aos-duration="1500"
               className="home-about-body"
             >
               ⚡Fun fact I am Falling in Love with Program 😄
