@@ -4,6 +4,8 @@ import Tilt from "react-parallax-tilt";
 import { Player } from "@lottiefiles/react-lottie-player";
 import { AiFillGithub, AiFillInstagram } from "react-icons/ai";
 import { FaLinkedinIn, FaHackerrank } from "react-icons/fa";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function Home2() {
   return (
@@ -14,7 +16,12 @@ function Home2() {
             <h1 style={{ fontSize: "2.6em" }}>
               PERMIT ME <span className="blue"> TO INTRODUCE </span> MYSELF
             </h1>
-            <p className="home-about-body">
+            <p
+              data-aos="fade-right"
+              data-aos-easing="linear"
+              data-aos-duration="1250"
+              className="home-about-body"
+            >
               ⚡Fun fact I am Falling in Love with Program 😄
               <br />
               <br /> 👑I’m previously working on
@@ -102,4 +109,6 @@ function Home2() {
     </Container>
   );
 }
+
+AOS.init();
 export default Home2;
