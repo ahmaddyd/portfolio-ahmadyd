@@ -9,7 +9,7 @@ import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 const resumeLink =
-  "https://raw.githubusercontent.com/ahmaddyd/assets/CV_Ahmad-Yulian-Dinata.pdf";
+  "https://raw.githubusercontent.com/ahmaddyd/ahmaddyd/master/assets/CV_Ahmad-Yulian-Dinata.pdf";
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
