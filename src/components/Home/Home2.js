@@ -21,6 +21,9 @@ function Home2() {
               data-aos-duration="1500"
               className="home-about-body"
             >
+              💕 I’m work on Software Engineer at Perum Perumnas
+              <br />
+              <br />
               ⚡Fun fact I am Falling in Love with Program 😄
               <br />
               <br /> 👑I’m previously working on
