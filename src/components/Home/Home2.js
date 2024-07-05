@@ -21,30 +21,23 @@ function Home2() {
               data-aos-duration="1500"
               className="home-about-body"
             >
-              💕 I’m work on Software Engineer at Perum Perumnas
+              💕  I’m work on Information Technology x Human Resource at Perum Perumnas
               <br />
               <br />
-              ⚡Fun fact I am Falling in Love with Program 😄
+              📫 How to reach me ahmdyulian.86@gmail.com
               <br />
-              <br /> 👑I’m previously working on
+              <br /> 👑I’m previously internship on
               <i>
                 <b className="blue">
                   {" "}
                   Software Programmer at PT Hashmicro Solusi Indonesia
                 </b>{" "}
-                and{" "}
-                <b className="blue">Android Developer at PT Presentologics </b>
+                and part of{" "}
+                <b className="blue">Studi Independen Bersertifikat (SIB) Android Developer at PT Presentologics </b>
               </i>
               <br />
               <br />
-              👨‍💻My areas of expertise include developing new&nbsp;
-              <i>
-                <b className="blue">Front-End Web Developer and Mobile Apps </b>{" "}
-                as well as{" "}
-                <b className="blue">
-                  Custom Odoo Module versions (Odoo 10 and Odoo 14)
-                </b>
-              </i>
+              🤖 Ask me about CodeIgniter, PHP Framework, UI Design, Python
               <br />
               <br />
               🌼I’m currently learning Frameworks, Courses
