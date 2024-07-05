@@ -23,10 +23,10 @@ function AboutCard() {
 
           <i>
             <p style={{ color: "#0081c9" }}>
-              "Suara ibu dirumah adalah berkah terbesar."{" "}
+              "⚡ Fun fact I enjoy the sound of rain in the midst of a melancholy night. 🎶😄"{" "}
             </p>
           </i>
-          <footer className="blockquote-footer">Ahmad Yulian</footer>
+          <footer className="blockquote-footer">Built with ❤️</footer>
         </blockquote>
       </Card.Body>
     </Card>
