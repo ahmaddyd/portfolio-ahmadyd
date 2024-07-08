@@ -7,9 +7,9 @@ function TypingText() {
       options={{
         strings: [
           "Front-End Developer",
-          "Odoo Developer",
-          "Android Development",
-          "Product Owner",
+          "Human Resources",
+          "Android Dev",
+          "UI Design",
         ],
         autoStart: true,
         loop: true,
