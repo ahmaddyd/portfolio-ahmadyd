@@ -7,7 +7,7 @@ function TypingText() {
       options={{
         strings: [
           "Front-End Developer",
-          "Human Resources",
+          "Human Capital Information System Specialist",
           "Android Dev",
           "UI Design",
         ],
