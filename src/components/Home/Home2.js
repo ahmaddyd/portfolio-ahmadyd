@@ -40,7 +40,7 @@ function Home2() {
               🤖 Ask me about CodeIgniter, PHP Framework, UI Design, Python
               <br />
               <br />
-              🌼I’m currently learning Frameworks, Courses
+              🌼I’m currently learning Frameworks, Courses, Soft Skills
             </p>
           </Col>
           <Col md={4} className="myAvtar">
